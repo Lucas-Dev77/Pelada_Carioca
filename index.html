@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pelada Carioca — Guia das peladas de basquete do Rio de Janeiro</title>
+  <meta name="description" content="Guia das peladas de basquete do Rio de Janeiro. Quadra por quadra: bairro, dia, horário e nível do jogo.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ CABEÇALHO / NAVEGAÇÃO ============ -->
+<header class="cabecalho" id="cabecalho">
+  <div class="container cabecalho__interno">
+    <a href="#inicio" class="logo">Pelada Carioca</a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav" id="nav">
+      <a href="#inicio" class="nav__link ativo">Início</a>
+      <a href="#blog" class="nav__link">Blog</a>
+      <a href="#peladas" class="nav__link">Peladas</a>
+      <a href="#galeria" class="nav__link">Galeria</a>
+      <a href="#contato" class="nav__link">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="inicio">
+  <div class="hero__fundo"></div>
+  <div class="hero__overlay"></div>
+
+  <div class="container hero__conteudo">
+    <p class="hero__chapeu">Guia das peladas de basquete do Rio de Janeiro</p>
+    <h1 class="hero__titulo">O Rio joga na rua</h1>
+    <a href="#peladas" class="botao botao--grande">Ver as peladas</a>
+  </div>
+
+  <a href="#sobre" class="hero__seta" aria-label="Rolar para baixo">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M6 9l6 6 6-6"/>
+    </svg>
+  </a>
+</section>
+
+<!-- ============ CARROSSEL / SOBRE ============ -->
+<section class="slider secao" id="sobre">
+  <div class="container">
+    <div class="slider__palco">
+
+      <div class="slide ativo">
+        <div class="slide__texto">
+          <h2 class="slide__titulo">O código da pelada</h2>
+          <p>Chegou, cumprimenta. Time que perde, sai. Falta é falta, mas ninguém trava o jogo por birra. Respeito com quem cuida da quadra e paciência com quem está começando. É esse acordo silencioso que faz a tarde inteira valer.</p>
+          <a href="#peladas" class="botao">Descubra Mais</a>
+        </div>
+        <div class="slide__midia">
+          <img src="https://images.unsplash.com/photo-1568809391772-503bcd521202?auto=format&amp;fit=crop&amp;w=960&amp;q=80" alt="Jogador de basquete numa quadra de rua">
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="slide__texto">
+          <h2 class="slide__titulo">Feito por quem joga</h2>
+          <p>A Pelada Carioca nasceu na beira da quadra, entre uma partida e outra, cansada de responder sempre a mesma pergunta no grupo do zap: onde tem jogo hoje? A gente joga, anota e publica. Sem federação, sem crachá, só bola, asfalto e palavra.</p>
+          <a href="#blog" class="botao">Leia Mais</a>
+        </div>
+        <div class="slide__midia">
+          <img src="https://images.unsplash.com/photo-1562515269-5e2b4953d2d6?auto=format&amp;fit=crop&amp;w=960&amp;q=80" alt="Atleta encostado na tabela de basquete">
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="slide__texto">
+          <h2 class="slide__titulo">Quadra por quadra</h2>
+          <p>Cada pelada ganha ficha própria: bairro, dia, horário, nível do jogo e o jeito certo de entrar na roda. Do Aterro ao Parque de Madureira, o Rio inteiro cabe aqui. E a lista só cresce.</p>
+          <a href="#peladas" class="botao">Confira Agora</a>
+        </div>
+        <div class="slide__midia">
+          <img src="https://images.unsplash.com/photo-1612151387840-62fb3b521841?auto=format&amp;fit=crop&amp;w=960&amp;q=80" alt="Bola de basquete na quadra">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="slider__controles">
+      <button class="slider__seta" id="slidePrev" aria-label="Slide anterior">&#8249;</button>
+      <div class="slider__dots" id="sliderDots"></div>
+      <button class="slider__seta" id="slideNext" aria-label="Próximo slide">&#8250;</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BLOG ============ -->
+<section class="secao secao--clara" id="blog">
+  <div class="container">
+    <header class="secao__cabecalho">
+      <h2 class="secao__titulo">Últimas do Basquete</h2>
+      <p class="secao__sub">As informações mais quentes e relevantes sobre o mundo do basquete, com foco na NBA e NBB.</p>
+    </header>
+
+    <div class="posts">
+
+      <article class="post revelar">
+        <a class="post__foto" href="#blog">
+          <img src="https://images.unsplash.com/photo-1654002932135-4df39d0ebc52?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Jogador de basquete com uniforme">
+        </a>
+        <div class="post__corpo">
+          <h3 class="post__titulo"><a href="#blog">Os Melhores Momentos da Semana</a></h3>
+          <p class="post__data">23 de outubro de 2025</p>
+          <p class="post__resumo">Confira os lances mais emocionantes da última semana, incluindo jogadas incríveis, enterradas...</p>
+          <a href="#blog" class="link-saiba">Saiba mais....</a>
+        </div>
+      </article>
+
+      <article class="post revelar">
+        <a class="post__foto" href="#blog">
+          <img src="https://images.unsplash.com/photo-1491488746893-68aa619cfb8f?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Times entrando em quadra">
+        </a>
+        <div class="post__corpo">
+          <h3 class="post__titulo"><a href="#blog">Transferências de Impacto</a></h3>
+          <p class="post__data">23 de outubro de 2025</p>
+          <p class="post__resumo">Com a janela de transferências se aproximando, as equipes estão se movimentando para fortalecer...</p>
+          <a href="#blog" class="link-saiba">Saiba mais....</a>
+        </div>
+      </article>
+
+      <article class="post revelar">
+        <a class="post__foto" href="#blog">
+          <img src="https://images.unsplash.com/photo-1671065340989-cdae41f15d48?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Detalhe de jogo de basquete">
+        </a>
+        <div class="post__corpo">
+          <h3 class="post__titulo"><a href="#blog">Lesões que Mudam o Jogo</a></h3>
+          <p class="post__data">23 de outubro de 2025</p>
+          <p class="post__resumo">As lesões são parte do jogo, mas algumas são mais impactantes que outras. Neste post, analisamos...</p>
+          <a href="#blog" class="link-saiba">Saiba mais....</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ AS PELADAS DO RIO ============ -->
+<section class="secao" id="peladas">
+  <div class="container">
+    <header class="secao__cabecalho">
+      <h2 class="secao__titulo">As peladas do Rio</h2>
+      <p class="secao__sub">Quatro endereços que explicam o basquete de rua carioca: do jogo mais disputado da cidade à quadra que a gente ainda chora.</p>
+    </header>
+
+    <div class="peladas">
+
+      <article class="pelada revelar">
+        <div class="pelada__foto">
+          <img src="https://images.unsplash.com/photo-1577416382952-9b5a3d5e3885?auto=format&amp;fit=crop&amp;w=960&amp;q=80" alt="Atletas no banco à espera da vez">
+          <span class="etiqueta">Zona Sul</span>
+        </div>
+        <div class="pelada__corpo">
+          <h3 class="pelada__titulo">Aterro do Flamengo — top 1</h3>
+          <p>Parque do Flamengo, Zona Sul. Se existe um lugar onde o basquete do Rio se mede, é aqui: quadra cheia, fila de time esperando vaga e jogo em ritmo de decisão. Manhã de fim de semana é o horário nobre. Nível alto — chegue aquecido e sem pressa de entrar.</p>
+          <a href="#contato" class="botao">Saiba Mais</a>
+        </div>
+      </article>
+
+      <article class="pelada revelar">
+        <div class="pelada__foto">
+          <img src="https://images.unsplash.com/photo-1649030608885-fb70fea013dc?auto=format&amp;fit=crop&amp;w=960&amp;q=80" alt="Quadra grafitada com movimento">
+          <span class="etiqueta">Madureira</span>
+        </div>
+        <div class="pelada__corpo">
+          <h3 class="pelada__titulo">Parque de Madureira — a grafitada</h3>
+          <p>A quadra grafitada é a mais fotogênica da cidade e já recebeu etapas do Campeonato Carioca de Basquete 3x3. Piso bom, iluminação e movimento até mais tarde. Boa para quem gosta de 3x3 e de plateia.</p>
+          <a href="#contato" class="botao">Ver Jogos</a>
+        </div>
+      </article>
+
+      <article class="pelada revelar">
+        <div class="pelada__foto">
+          <img src="https://images.unsplash.com/photo-1545316932-569f8410271c?auto=format&amp;fit=crop&amp;w=960&amp;q=80" alt="Jogadores conversando na beira da quadra">
+          <span class="etiqueta">Tijuca</span>
+        </div>
+        <div class="pelada__corpo">
+          <h3 class="pelada__titulo">Heitor Beltrão — a Tijuca joga</h3>
+          <p>Tijuca, na altura da Heitor Beltrão. Pelada de bairro no melhor sentido: gente que se conhece de nome, jogo honesto e resenha depois. No fim da tarde não espere quadra vazia. Nem moleza.</p>
+          <a href="#contato" class="botao">Descubra Mais</a>
+        </div>
+      </article>
+
+      <article class="pelada pelada--memoria revelar">
+        <div class="pelada__foto">
+          <img src="https://images.unsplash.com/photo-1430254769815-4c7b54757b5b?auto=format&amp;fit=crop&amp;w=960&amp;q=80" alt="Quadra antiga do bairro">
+          <span class="etiqueta etiqueta--cinza">Maracanã</span>
+        </div>
+        <div class="pelada__corpo">
+          <h3 class="pelada__titulo">Praça Niterói — descanse em paz</h3>
+          <p>Maracanã, entre as ruas Dona Zulmira e Santa Luíza. Para muita gente foi ali que o basquete começou: primeira cesta, primeiro toco, primeira derrota feia. Hoje a pelada não rola mais como antes, e o registro fica aqui de pé. Descanse em paz.</p>
+          <a href="#contato" class="botao botao--fantasma">Descubra Mais</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALERIA ============ -->
+<section class="secao secao--clara" id="galeria">
+  <div class="container">
+    <header class="secao__cabecalho">
+      <h2 class="secao__titulo">A cena carioca</h2>
+      <p class="secao__sub">Asfalto, tabela torta, camisa suada e cesta no estouro. O Rio jogando basquete do jeito que ele sabe.</p>
+    </header>
+  </div>
+
+  <div class="galeria" id="galeriaGrid">
+    <figure class="galeria__item revelar">
+      <img src="https://images.unsplash.com/photo-1654000672527-5931eb449dbe?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Partida com arquibancada cheia">
+    </figure>
+    <figure class="galeria__item revelar">
+      <img src="https://images.unsplash.com/photo-1615000180486-64d23d1dce7d?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Bola de basquete nas mãos">
+    </figure>
+    <figure class="galeria__item revelar">
+      <img src="https://images.unsplash.com/photo-1576369897787-d6fbee93316d?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Disputa de bola no alto">
+    </figure>
+    <figure class="galeria__item revelar">
+      <img src="https://images.unsplash.com/photo-1612151387840-62fb3b521841?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Quadra de rua ao ar livre">
+    </figure>
+  </div>
+</section>
+
+<!-- ============ RODAPÉ / CONTATO ============ -->
+<footer class="rodape" id="contato">
+  <div class="container rodape__interno">
+    <div class="rodape__marca">
+      <p class="logo logo--rodape">Pelada Carioca</p>
+      <p class="rodape__frase">Sem federação, sem crachá. Só bola, asfalto e palavra.</p>
+    </div>
+
+    <nav class="rodape__links">
+      <a href="#inicio">Início</a>
+      <a href="#blog">Blog</a>
+      <a href="#peladas">Peladas</a>
+      <a href="#galeria">Galeria</a>
+    </nav>
+
+    <div class="rodape__contato">
+      <p>Achou uma pelada que não está aqui?</p>
+      <a href="mailto:contato@peladacarioca.com.br" class="botao">Manda pra gente</a>
+    </div>
+  </div>
+
+  <p class="rodape__copy">&copy;2025 Pelada Carioca — recriado localmente.</p>
+</footer>
+
+<!-- Lightbox da galeria -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox__fechar" id="lightboxFechar" aria-label="Fechar">&times;</button>
+  <img src="" alt="" id="lightboxImg">
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

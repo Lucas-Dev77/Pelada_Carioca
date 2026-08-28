@@ -1,0 +1,14 @@
+# Lixo do Windows / macOS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Configurações locais de editor
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.log
+*.tmp
+*~
