@@ -181,9 +181,21 @@
     <div class="peladas">
 
       <article class="pelada revelar">
-        <div class="pelada__foto">
-          <img src="https://images.unsplash.com/photo-1577416382952-9b5a3d5e3885?auto=format&amp;fit=crop&amp;w=960&amp;q=80" alt="Atletas no banco à espera da vez">
+        <!-- Card com vídeo. Enquanto assets/video/aterro.mp4 não existir, o
+             visitante vê apenas a imagem do poster — nada quebra. -->
+        <div class="pelada__foto pelada__foto--video">
+          <video class="pelada__video" id="videoAterro"
+                 poster="assets/video/aterro-capa.jpg"
+                 muted loop playsinline preload="metadata"
+                 aria-label="Pelada no Aterro do Flamengo">
+            <source src="assets/video/aterro.webm" type="video/webm">
+            <source src="assets/video/aterro.mp4" type="video/mp4">
+          </video>
           <span class="etiqueta">Zona Sul</span>
+          <button class="video-controle" type="button" hidden
+                  data-alvo="videoAterro" aria-label="Pausar vídeo">
+            <span class="video-controle__icone" aria-hidden="true"></span>
+          </button>
         </div>
         <div class="pelada__corpo">
           <h3 class="pelada__titulo">Aterro do Flamengo — top 1</h3>

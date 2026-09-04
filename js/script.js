@@ -256,4 +256,57 @@ document.addEventListener('DOMContentLoaded', () => {
       </a>`;
   }
 
+  /* ---------- 8. Vídeo nos cards de pelada ---------- */
+  const menosMovimento = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  document.querySelectorAll('.video-controle').forEach(botao => {
+    const video = document.getElementById(botao.dataset.alvo);
+    if (!video) return;
+
+    let pausadoPeloUsuario = false;
+
+    const refletirEstado = () => {
+      botao.dataset.estado = video.paused ? 'pausado' : 'tocando';
+      botao.setAttribute('aria-label', video.paused ? 'Tocar vídeo' : 'Pausar vídeo');
+    };
+
+    const tentarTocar = () => { video.play().catch(() => {}); };
+
+    botao.addEventListener('click', () => {
+      if (video.paused) { pausadoPeloUsuario = false; tentarTocar(); }
+      else { pausadoPeloUsuario = true; video.pause(); }
+    });
+
+    video.addEventListener('play', refletirEstado);
+    video.addEventListener('pause', refletirEstado);
+
+    // O controle só aparece se o arquivo existir de verdade. Sem vídeo na
+    // pasta, o visitante vê apenas o poster e nenhum botão quebrado.
+    // Escuta os dois eventos porque a ordem varia entre navegadores — e
+    // vídeo que toca sozinho sem como pausar é barreira de acessibilidade.
+    const revelarControle = () => {
+      if (!botao.hidden) return;
+      botao.hidden = false;
+      refletirEstado();
+    };
+
+    video.addEventListener('loadedmetadata', () => {
+      revelarControle();
+      if (!menosMovimento) tentarTocar();
+    });
+    video.addEventListener('playing', revelarControle);
+
+    // Fora da tela, o vídeo pausa — não faz sentido gastar bateria e dados
+    // de quem está lendo outra seção.
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(entradas => {
+        entradas.forEach(e => {
+          if (menosMovimento || pausadoPeloUsuario) return;
+          if (e.isIntersecting) tentarTocar();
+          else video.pause();
+        });
+      }, { threshold: 0.25 }).observe(video);
+    }
+  });
+
 });

@@ -772,3 +772,59 @@ body.pagina-interna .cabecalho .menu-btn span{ background: var(--tinta); }
   .noticias{ grid-template-columns: 1fr; }
   .destaque{ padding: 28px; }
 }
+
+/* ==========================================================================
+   13. Vídeo nos cards de pelada
+   ========================================================================== */
+
+.pelada__foto--video{ background: var(--tinta); }
+
+/* O vídeo do Aterro é 3:4 (mais alto que as fotos) porque é o formato que
+   mantém a tabela e os jogadores no mesmo quadro. Cortar em 4:3 deixava o
+   aro de fora — e o lance é justamente a bola entrando. */
+.pelada__video{
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+}
+
+/* o vídeo não recebe o zoom de hover das fotos — atrapalha quem está assistindo */
+.pelada:hover .pelada__foto--video .pelada__video{ transform: none; }
+
+.video-controle{
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(18, 16, 14, .6);
+  backdrop-filter: blur(6px);
+  transition: background var(--transicao), transform var(--transicao);
+}
+.video-controle:hover{ background: rgba(18, 16, 14, .88); transform: scale(1.06); }
+.video-controle:focus-visible{ outline: 2px solid var(--laranja); outline-offset: 3px; }
+
+/* ícone: duas barras (pausar) que viram triângulo (tocar) */
+.video-controle__icone{
+  width: 12px;
+  height: 15px;
+  border-left: 4px solid #fff;
+  border-right: 4px solid #fff;
+}
+.video-controle[data-estado="pausado"] .video-controle__icone{
+  width: 0;
+  height: 0;
+  border: 0;
+  border-left: 14px solid #fff;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  margin-left: 4px;
+}
+
+@media (max-width: 900px){
+  .pelada__video{ aspect-ratio: 4 / 5; }
+}

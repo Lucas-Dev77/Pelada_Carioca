@@ -15,3 +15,6 @@ Desktop.ini
 
 # descarte local (a VM do Claude nao pode apagar arquivos)
 _lixo-git/
+
+# material bruto de foto e video (fica so na sua maquina)
+midia-bruta/
