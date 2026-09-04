@@ -5,6 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pelada Carioca — Guia das peladas de basquete do Rio de Janeiro</title>
   <meta name="description" content="Guia das peladas de basquete do Rio de Janeiro. Quadra por quadra: bairro, dia, horário e nível do jogo.">
+  <link rel="canonical" href="https://lucas-dev77.github.io/Pelada_Carioca/">
+  <meta name="theme-color" content="#ea5a00">
+
+  <!-- Ícones da aba e do atalho no celular -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.png" sizes="96x96">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <!-- Prévia ao compartilhar o link (WhatsApp, Instagram, X, LinkedIn) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Pelada Carioca">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="https://lucas-dev77.github.io/Pelada_Carioca/">
+  <meta property="og:title" content="Pelada Carioca — O Rio joga na rua">
+  <meta property="og:description" content="Guia das peladas de basquete do Rio de Janeiro. Quadra por quadra: bairro, dia, horário e nível do jogo.">
+  <meta property="og:image" content="https://lucas-dev77.github.io/Pelada_Carioca/assets/og-capa.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Pelada Carioca — guia das peladas de basquete do Rio de Janeiro">
+  <meta name="twitter:card" content="summary_large_image">
+
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,6 +48,7 @@
       <a href="#inicio" class="nav__link ativo">Início</a>
       <a href="#blog" class="nav__link">Blog</a>
       <a href="#peladas" class="nav__link">Peladas</a>
+      <a href="vamos-jogar.html" class="nav__link">Vamos Jogar?</a>
       <a href="#galeria" class="nav__link">Galeria</a>
       <a href="#contato" class="nav__link">Contato</a>
     </nav>
@@ -99,53 +121,52 @@
   </div>
 </section>
 
-<!-- ============ BLOG ============ -->
+<!-- ============ BLOG / NOTÍCIAS ============ -->
+<!-- Os cards abaixo são preenchidos por js/script.js a partir de dados/noticias.json,
+     que o robô do GitHub Actions atualiza todo dia. O conteúdo estático que já está
+     aqui é o que aparece se o JavaScript ou o arquivo falharem. -->
 <section class="secao secao--clara" id="blog">
   <div class="container">
     <header class="secao__cabecalho">
       <h2 class="secao__titulo">Últimas do Basquete</h2>
-      <p class="secao__sub">As informações mais quentes e relevantes sobre o mundo do basquete, com foco na NBA e NBB.</p>
+      <p class="secao__sub">O que está acontecendo no basquete brasileiro, com olho no que é do Rio e no que rola na rua.</p>
     </header>
 
-    <div class="posts">
+    <div id="destaqueCarioca"></div>
 
-      <article class="post revelar">
-        <a class="post__foto" href="#blog">
-          <img src="https://images.unsplash.com/photo-1654002932135-4df39d0ebc52?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Jogador de basquete com uniforme">
-        </a>
-        <div class="post__corpo">
-          <h3 class="post__titulo"><a href="#blog">Os Melhores Momentos da Semana</a></h3>
-          <p class="post__data">23 de outubro de 2025</p>
-          <p class="post__resumo">Confira os lances mais emocionantes da última semana, incluindo jogadas incríveis, enterradas...</p>
-          <a href="#blog" class="link-saiba">Saiba mais....</a>
+    <div class="noticias" id="listaNoticias">
+
+      <article class="noticia">
+        <div class="noticia__meta">
+          <span class="noticia__fonte">CBB</span>
+          <span class="noticia__data">30 de agosto de 2026</span>
         </div>
+        <h3 class="noticia__titulo"><a href="https://cbb.com.br/noticias/brasil-viaja-a-zacatecas-para-segundo-duelo-da-janela-das-eliminatorias-diante-do-mexico" target="_blank" rel="noopener">Brasil viaja a Zacatecas para segundo duelo da janela das Eliminatórias diante do México</a></h3>
+        <a class="link-saiba" href="https://cbb.com.br/noticias/brasil-viaja-a-zacatecas-para-segundo-duelo-da-janela-das-eliminatorias-diante-do-mexico" target="_blank" rel="noopener">Ler na fonte</a>
       </article>
 
-      <article class="post revelar">
-        <a class="post__foto" href="#blog">
-          <img src="https://images.unsplash.com/photo-1491488746893-68aa619cfb8f?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Times entrando em quadra">
-        </a>
-        <div class="post__corpo">
-          <h3 class="post__titulo"><a href="#blog">Transferências de Impacto</a></h3>
-          <p class="post__data">23 de outubro de 2025</p>
-          <p class="post__resumo">Com a janela de transferências se aproximando, as equipes estão se movimentando para fortalecer...</p>
-          <a href="#blog" class="link-saiba">Saiba mais....</a>
+      <article class="noticia">
+        <div class="noticia__meta">
+          <span class="selo selo--rua">Rua &middot; 3x3</span>
+          <span class="noticia__fonte">CBB</span>
+          <span class="noticia__data">28 de agosto de 2026</span>
         </div>
+        <h3 class="noticia__titulo"><a href="https://cbb.com.br/noticias/brasileirao-3x3-chega-a-joao-pessoa-para-a-etapa-nordeste-2" target="_blank" rel="noopener">Brasileirão 3x3 chega a João Pessoa para a Etapa Nordeste 2</a></h3>
+        <a class="link-saiba" href="https://cbb.com.br/noticias/brasileirao-3x3-chega-a-joao-pessoa-para-a-etapa-nordeste-2" target="_blank" rel="noopener">Ler na fonte</a>
       </article>
 
-      <article class="post revelar">
-        <a class="post__foto" href="#blog">
-          <img src="https://images.unsplash.com/photo-1671065340989-cdae41f15d48?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Detalhe de jogo de basquete">
-        </a>
-        <div class="post__corpo">
-          <h3 class="post__titulo"><a href="#blog">Lesões que Mudam o Jogo</a></h3>
-          <p class="post__data">23 de outubro de 2025</p>
-          <p class="post__resumo">As lesões são parte do jogo, mas algumas são mais impactantes que outras. Neste post, analisamos...</p>
-          <a href="#blog" class="link-saiba">Saiba mais....</a>
+      <article class="noticia">
+        <div class="noticia__meta">
+          <span class="noticia__fonte">CBB</span>
+          <span class="noticia__data">28 de agosto de 2026</span>
         </div>
+        <h3 class="noticia__titulo"><a href="https://cbb.com.br/noticias/brasil-e-superado-pela-republica-dominicana-nas-eliminatorias-da-copa-do-mundo" target="_blank" rel="noopener">Brasil é superado pela República Dominicana nas Eliminatórias da Copa do Mundo</a></h3>
+        <a class="link-saiba" href="https://cbb.com.br/noticias/brasil-e-superado-pela-republica-dominicana-nas-eliminatorias-da-copa-do-mundo" target="_blank" rel="noopener">Ler na fonte</a>
       </article>
 
     </div>
+
+    <p class="atualizado" id="atualizado"></p>
   </div>
 </section>
 
@@ -248,6 +269,7 @@
       <a href="#inicio">Início</a>
       <a href="#blog">Blog</a>
       <a href="#peladas">Peladas</a>
+      <a href="vamos-jogar.html">Vamos Jogar?</a>
       <a href="#galeria">Galeria</a>
     </nav>
 

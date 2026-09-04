@@ -12,3 +12,6 @@ Desktop.ini
 *.log
 *.tmp
 *~
+
+# descarte local (a VM do Claude nao pode apagar arquivos)
+_lixo-git/

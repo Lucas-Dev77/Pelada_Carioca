@@ -422,3 +422,353 @@ button{ font:inherit; cursor:pointer; border:0; background:none; color:inherit; 
   *{ animation: none !important; transition: none !important; }
   .revelar{ opacity:1; transform:none; }
 }
+
+/* ==========================================================================
+   11. Página "Vamos Jogar?" — preparo, prevenção e recuperação
+   ========================================================================== */
+
+/* Páginas internas não têm hero, então o cabeçalho já nasce branco */
+body.pagina-interna .cabecalho{
+  background: var(--branco);
+  box-shadow: 0 2px 18px rgba(0,0,0,.08);
+  padding: 14px 0;
+}
+body.pagina-interna .cabecalho .logo,
+body.pagina-interna .cabecalho .nav__link{ color: var(--tinta); }
+body.pagina-interna .cabecalho .nav__link:hover{ color: var(--laranja); }
+body.pagina-interna .cabecalho .menu-btn span{ background: var(--tinta); }
+
+/* ---------- Abertura da página ---------- */
+.capa{
+  padding: 168px 0 72px;
+  background: var(--tinta);
+  color: var(--branco);
+  text-align: center;
+}
+.capa__chapeu{
+  text-transform: uppercase;
+  letter-spacing: .16em;
+  font-size: .85rem;
+  color: var(--laranja);
+  margin-bottom: 18px;
+}
+.capa__titulo{
+  font-family: var(--fonte-titulo);
+  font-weight: 300;
+  font-size: clamp(2.2rem, 6vw, 3.8rem);
+  line-height: 1.1;
+  margin-bottom: 22px;
+}
+.capa__linha{
+  max-width: 720px;
+  margin-inline: auto;
+  color: #cfcdc9;
+  font-size: 1.05rem;
+}
+
+/* ---------- Os três fatos ---------- */
+.fatos{ display:grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+
+.fato{
+  background: var(--branco);
+  border-radius: var(--raio);
+  border-top: 4px solid var(--laranja);
+  padding: 32px 28px;
+}
+.fato__numero{
+  font-family: var(--fonte-titulo);
+  font-weight: 700;
+  font-size: 2.6rem;
+  line-height: 1;
+  color: var(--laranja);
+  margin-bottom: 14px;
+}
+.fato__texto{ color: var(--tinta-suave); font-size: .98rem; }
+
+/* ---------- Rotina do aquecimento ---------- */
+.rotina{ list-style:none; display:flex; flex-direction:column; gap: 20px; max-width: 900px; margin-inline:auto; }
+
+.rotina__item{
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+  padding: 26px 30px;
+  transition: border-color var(--transicao), box-shadow var(--transicao);
+}
+.rotina__item:hover{
+  border-color: var(--laranja);
+  box-shadow: 0 6px 22px rgba(0,0,0,.06);
+}
+
+.rotina__topo{ display:flex; align-items:center; gap: 16px; margin-bottom: 14px; }
+
+.rotina__num{
+  flex: 0 0 auto;
+  width: 38px; height: 38px;
+  display:grid; place-items:center;
+  border-radius: 50%;
+  background: var(--laranja);
+  color: var(--branco);
+  font-weight: 700;
+}
+.rotina__titulo{
+  font-family: var(--fonte-texto);
+  font-weight: 400;
+  font-size: 1.28rem;
+  flex: 1;
+}
+.rotina__tempo{
+  font-size: .8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--tinta-suave);
+  background: var(--gelo);
+  padding: 5px 12px;
+  border-radius: 999px;
+}
+.rotina__como{ margin-bottom: 10px; }
+.rotina__porque{
+  color: var(--tinta-suave);
+  font-size: .96rem;
+  padding-left: 16px;
+  border-left: 3px solid var(--borda);
+}
+
+.nota{
+  max-width: 900px;
+  margin: 36px auto 0;
+  padding: 18px 22px;
+  background: var(--gelo);
+  border-left: 4px solid var(--laranja);
+  border-radius: var(--raio);
+  font-size: .98rem;
+}
+.secao--clara .nota{ background: var(--branco); }
+
+/* ---------- Fortalecimento ---------- */
+.exercicios{ display:grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+
+.exercicio{
+  background: var(--branco);
+  border-radius: var(--raio);
+  padding: 28px 26px;
+}
+.exercicio__nome{
+  font-family: var(--fonte-texto);
+  font-weight: 400;
+  font-size: 1.18rem;
+  margin-bottom: 6px;
+}
+.exercicio__dose{
+  font-weight: 700;
+  font-size: .88rem;
+  color: var(--laranja);
+  margin-bottom: 12px;
+}
+.exercicio p:last-child{ color: var(--tinta-suave); font-size: .96rem; }
+
+/* ---------- Funciona / não funciona ---------- */
+.colunas{ display:grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+
+.coluna{ padding: 32px 30px; border-radius: var(--raio); }
+.coluna--sim{ background: #f2f7f2; border-top: 4px solid #4c8055; }
+.coluna--nao{ background: #faf3f0; border-top: 4px solid #b5533a; }
+
+.coluna__titulo{
+  font-family: var(--fonte-titulo);
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin-bottom: 20px;
+}
+.coluna--sim .coluna__titulo{ color:#3d6b45; }
+.coluna--nao .coluna__titulo{ color:#9c452f; }
+
+.lista{ list-style:none; display:flex; flex-direction:column; gap: 16px; }
+.lista li{ padding-left: 22px; position:relative; font-size: .98rem; color: var(--tinta-suave); }
+.lista li::before{
+  content:""; position:absolute; left:0; top:.6em;
+  width:8px; height:8px; border-radius:50%;
+}
+.coluna--sim .lista li::before{ background:#4c8055; }
+.coluna--nao .lista li::before{ background:#b5533a; }
+.lista strong{ color: var(--tinta); }
+
+/* ---------- Sinais de alerta ---------- */
+.secao--alerta{ background: var(--gelo); }
+
+.alertas{ display:grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+
+.alerta{
+  background: var(--branco);
+  border-left: 4px solid #b5533a;
+  border-radius: var(--raio);
+  padding: 26px 28px;
+}
+.alerta h3{
+  font-family: var(--fonte-texto);
+  font-weight: 400;
+  font-size: 1.12rem;
+  margin-bottom: 10px;
+}
+.alerta p{ color: var(--tinta-suave); font-size: .96rem; }
+
+.aviso{
+  margin-top: 36px;
+  padding: 24px 28px;
+  background: var(--tinta);
+  color: #d8d6d2;
+  border-radius: var(--raio);
+  font-size: .96rem;
+}
+.aviso strong{ color: var(--branco); }
+
+/* ---------- Chamada da comunidade ---------- */
+.chamada{ text-align:center; max-width: 720px; }
+.chamada .secao__sub{ margin-bottom: 32px; }
+.chamada__obs{ margin-top: 22px; font-size: .9rem; color: var(--tinta-suave); }
+
+/* ---------- Fontes ---------- */
+.fontes{ padding: 64px 0; border-top: 1px solid var(--borda); }
+.fontes__titulo{
+  font-family: var(--fonte-titulo);
+  font-weight: 400;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--tinta-suave);
+  margin-bottom: 20px;
+}
+.fontes__lista{ list-style:none; display:flex; flex-direction:column; gap: 12px; }
+.fontes__lista li{ font-size: .92rem; color: var(--tinta-suave); }
+.fontes__lista a{ color: var(--tinta); text-decoration: underline; text-underline-offset: 3px; }
+.fontes__lista a:hover{ color: var(--laranja); }
+
+/* ---------- Responsivo da página ---------- */
+@media (max-width: 900px){
+  .capa{ padding: 130px 0 56px; }
+  .fatos,
+  .exercicios,
+  .colunas,
+  .alertas{ grid-template-columns: 1fr; }
+  .rotina__item{ padding: 22px; }
+  .rotina__topo{ flex-wrap: wrap; gap: 12px; }
+  .rotina__titulo{ flex: 1 1 60%; font-size: 1.14rem; }
+}
+
+/* ==========================================================================
+   12. Notícias — cards montados a partir de dados/noticias.json
+   ========================================================================== */
+
+.noticias{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.noticia{
+  background: var(--branco);
+  border-radius: var(--raio);
+  padding: 26px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-top: 3px solid transparent;
+  transition: border-color var(--transicao), box-shadow var(--transicao), transform var(--transicao);
+}
+.noticia:hover{
+  border-top-color: var(--laranja);
+  box-shadow: 0 8px 24px rgba(0,0,0,.07);
+  transform: translateY(-3px);
+}
+
+.noticia__meta{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: .78rem;
+}
+.noticia__fonte{
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  color: var(--tinta);
+}
+.noticia__data{ color: var(--tinta-suave); }
+
+.noticia__titulo{
+  font-family: var(--fonte-texto);
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  flex: 1;
+}
+.noticia__titulo a:hover{ color: var(--laranja); }
+
+.selo{
+  font-size: .68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  padding: 4px 10px;
+  border-radius: 999px;
+  color: var(--branco);
+  background: #6b6b6b;
+}
+.selo--rio{ background: var(--laranja); }
+.selo--rua{ background: #2f6f7d; }
+
+/* ---------- Destaque carioca (ou conteúdo da casa) ---------- */
+.destaque{
+  display: block;
+  background: var(--tinta);
+  color: var(--branco);
+  border-radius: var(--raio);
+  padding: 34px 36px;
+  margin-bottom: 28px;
+  border-left: 5px solid var(--laranja);
+  transition: transform var(--transicao), box-shadow var(--transicao);
+}
+.destaque:hover{ transform: translateY(-3px); box-shadow: 0 12px 30px rgba(0,0,0,.18); }
+
+.destaque__rotulo{
+  font-size: .74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--laranja);
+  margin-bottom: 12px;
+}
+.destaque__titulo{
+  font-family: var(--fonte-titulo);
+  font-weight: 300;
+  font-size: clamp(1.35rem, 2.6vw, 1.9rem);
+  line-height: 1.25;
+}
+.destaque__meta,
+.destaque__texto{ color: #b9b7b3; font-size: .95rem; margin-top: 12px; }
+
+.destaque__cta{
+  display: inline-block;
+  margin-top: 18px;
+  font-weight: 700;
+  font-size: .9rem;
+  color: var(--laranja);
+  border-bottom: 2px solid transparent;
+  transition: border-color var(--transicao);
+}
+.destaque:hover .destaque__cta{ border-bottom-color: var(--laranja); }
+
+.atualizado{
+  margin-top: 32px;
+  text-align: center;
+  font-size: .84rem;
+  color: var(--tinta-suave);
+}
+
+@media (max-width: 900px){
+  .noticias{ grid-template-columns: 1fr; }
+  .destaque{ padding: 28px; }
+}
