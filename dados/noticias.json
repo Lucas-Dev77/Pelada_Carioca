@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-09-05T14:32:18.688Z",
+  "atualizadoEm": "2026-09-06T14:54:00.117Z",
   "destaque": {
     "titulo": "Brasileirão 3x3 chega a João Pessoa para a Etapa Nordeste 2 - Confederação Brasileira de Basketball | CBB",
     "fonte": "Confederação Brasileira de Basketball | CBB",
@@ -9,6 +9,13 @@
   },
   "itens": [
     {
+      "titulo": "Pipoka Vianna: das quadras de basquete para a universidade - Correio Braziliense",
+      "fonte": "Correio Braziliense",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSFBPaTBYVl90b0tyR1BzcVl1cmNxZGxiZENtUVRoQ2pBMFpTbGwtN21WYlFhQVh2eUp1YU1fOHV2ZW55anloQTdGSWhLVnNyTXliaUNQZ2dUZWcxWFNaekZBX2hKOHJJbDJqazRpQ2l6dmVLQ19rTmJUX0VXQU5oTi1DSGlDU1E5cEZwSFZhclhYbUw5eUhQaVU1Y3Z2V242Sm9ZTXlUTFdPb1ZpM1hvM3AyMHNTQ3ZrdUxRdml4bGUwczNzbmx4WUUzM25nUzJOWDFPVXg2VU0yQmNuMFlVWDdB?oc=5",
+      "quando": "2026-09-06T09:00:00.000Z",
+      "selo": null
+    },
+    {
       "titulo": "Botafogo faz contratação de peso para equipe de basquete; veja - LANCE!",
       "fonte": "LANCE!",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTEJnTEl0UEtFU1JUWFZEbDg0blhpMGRIQUdfaDNOenVkbWVPR2NQck9QOVZ5ZE1NMy1xVzgtMVlUdlpTNzl5WU03WEVYQXZVZE5rTG12SHBFN3h2S25oUHdZcXRhcmZMU3YxUy1qX2R6UkEwV2FhMVJuQnR6dDVfUHJhNUNqVWkxeWhiTUNWWnJybWNmaWplSElVNDlhVlVROERrWFRDd3BSRl9CYVpraA?oc=5",
@@ -16,17 +23,10 @@
       "selo": null
     },
     {
-      "titulo": "Lucas Pedralli é convocado para Camp de Observação da Seleção Brasileira Sub-16 de Basquete - Grêmio Náutico União",
-      "fonte": "Grêmio Náutico União",
+      "titulo": "Lucas Pedralli é convocado para Camp de Observação da Seleção Brasileira Sub-16 de Basquete - gnu.com.br",
+      "fonte": "gnu.com.br",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaDdpdkdPckM1aDVfbU5NeGNVUnBjSUhMZG5SYlA0dWZGS20zQ0loN0F2QUt4eVB5bXh3ckwzVjhWRjVxNko2ZHdVZmlxalJEQUxtTlczYTQ4LTB4b2VGcExWSEhpYUYyNkFIRjRtNEdkZEdPS3FremFZQ2hPNXFxTnFvcFp1UlVKNWlBMDB4Y0QtSTFJZ2lfdmZBakEwYTVMbDZBdDlMbjd1Z0xpNzd0OVc3OFctRnBZSlQ4bUx2ZTFaMl9GTXJ3?oc=5",
       "quando": "2026-09-04T17:03:37.000Z",
-      "selo": null
-    },
-    {
-      "titulo": "Camp Sub-15 segue preparação para a AmeriCup Sub-16 de 2027 com etapa em Mogi das Cruzes - Confederação Brasileira de Basketball | CBB",
-      "fonte": "Confederação Brasileira de Basketball | CBB",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPM2FFOHREZjRSMURzWXM2UFkzSEhfM0pVdGI4QUlLcGRpUDEwMlBKVk1OVTZ0TE9IWGIyWVJMMlJfbFlQNjQwYmRPejlQYzdKOFVLSU1md1RMRkp3aDlBcWU2c3hGQ2xBY0M0RDlaam5SeFNjSlduc3V6SngzaVlwbEc5T1h6OWtGSURsdzhOTEZVT3NKSU1NN3FFZk5MeVFObDNiOTVybmZJNDl0VWY0NlpiRzJXZDhnRTJ1NQ?oc=5",
-      "quando": "2026-09-03T20:08:19.000Z",
       "selo": null
     },
     {
@@ -44,17 +44,10 @@
       "selo": null
     },
     {
-      "titulo": "Com Jelena Todorovic, Basquete Cearense terá temporada de voo solo, sem o Fortaleza - O POVO",
-      "fonte": "O POVO",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPSmtSOTd3MHNvbExwYzJSa0NXNDJYTFZkRG1KYV93TFVyZXVGNURZZ0Z3YklYMmVWdHBJaWc2bnV0TklFMU8xWV9QSnk1WGpEZ2t1YnJfaFhsUTJyS2s1a1NsWWJGQnBTYWFRZmtKWVdSWkpxTmVJOVo2TnZET1VCUGVhT0Yxd3QwY0tJa3piajFaUzlwM3l3LWlZUVdpdloxUkd5QU1aYkJ3NnY4ZWI2dmJjTmVSRmh0X0VkeEdVYjlpZ0pPSkhZTDhVbFBxLTVKZEx1ZWQ0c2xMZ0k0cXlVT0g1NA?oc=5",
+      "titulo": "Com Jelena Todorovic, Basquete Cearense terá temporada de voo solo, sem o Fortaleza - opovo.com.br",
+      "fonte": "opovo.com.br",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUGpCdDFCRHN1UFdMWVdzV2ZTRHFWYnNnRzJxeHY5LWNvenYwRF8zSWwtMXU1Yks5cVhTQWlzNWdEcFEzYy03NW91dGRrRl9TUGd4N2dDVzBPQ3BGVGpmOWJ1UV9BRGI3ajY3NUZCc184NXNROUNDWW9LZFprZGZSaEJfNUJ5RGJoRUNqNEtvVmJ0Wm1LUG5SbEdPWVdTMW00TGZ1UTY5dkRNdlBQUlhSMHNSRWhjY3U4aUo0eVFFVUpLSUlXdGhFenB5Nk1yeUFla2c5bDF0bjlpMndwa0E?oc=5",
       "quando": "2026-09-03T11:00:00.000Z",
-      "selo": null
-    },
-    {
-      "titulo": "NBA pune Clippers e multa Kawhi Leonard por violação do teto salarial; entenda - Estadão",
-      "fonte": "Estadão",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRHNodktPQ2tjNm90MllIM05MT0xiRWprRDBfY2JGOERBbWc0aHE5MEFrU3dKNi16VU1NdGctM2VydDhlTlJyTzhDNkd0aDJqWTZVUW5DV3B3dlRvZXdES0ZmWGNIMUpFbnZHM2ttUk5GZG1nbDZDN0RHaGZBNWNva2l5VDk3ZFRZR1BWMFBGSkp6SWVVYlplLU5qREg5c3U0MUphQ0tEZmFQenljd0Z0Vnl4djhJd2Q3NzAteVl30gHDAUFVX3lxTE1yU0hXVWVZU3BJRjhGbDZOWVVZYzAyZk1oWjU2N2ZPN2lfbHhSeF9YNURGN1RPYjVxNkRJclhrS3E0RndLUVRlLVRsMi0zeVppZTdZYjE2THBTcVVCZXY5U0NWTkUzUVhadXlLYWJTS0gxMHNaQW9TSmJMSmluXzlrT29TMnBMWW93bEFHVVlHSjVQdkNrT2RnVWVPM002QVpDcDR2TzY5V3BvSkFfUjVOMGVmMjZtajVDUlFCQ21yenJrQQ?oc=5",
-      "quando": "2026-09-03T02:46:00.000Z",
       "selo": null
     },
     {
@@ -69,6 +62,13 @@
       "fonte": "LANCE!",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOc0kyVkY1bnA5dXVWTEhSTFBHRDlQNTNfc3NNV2JqMFdoZjFWSV9QWEdvNmF0NFl2Q1RaY3BEbGRhNERQN0E1QmNIaEFGVVN6X0ZuR2VuYzRCZGVDUV9famZyMkNfOUplM05oZDMxUU5sMEozcjhLQUJsZ0owNlFWUGZSTUZaZXRyYzBwLWFnQlFMUzhlMTBYNjZvYm53QQ?oc=5",
       "quando": "2026-09-01T18:33:16.000Z",
+      "selo": null
+    },
+    {
+      "titulo": "Seleção brasileira sofre revés nas Eliminatórias da Copa do Mundo de Basquete - Correio do Povo",
+      "fonte": "Correio do Povo",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRWhLYU1rT1hUODNMNzMwT29OREZkNjRtVzE2YTF5a2hPR2p5emQ5RGZLMmtkRDNoYk5aYVFpbWJGQnlWOUVPcWdaX1EyR3pUSGxIZmlVVTZ4MGMwNmVKX0FVQUJWOFdWY3RfM2wxLVJvajRsRGR2SW5Na1F5ekFhNGw3cnNKUm5jdTcyUWFtUld0dE11SUtVci10QThSS1dQY0tHUS1LbTR6X2NtZk80RnN3WHR5eHBQT1ZhaHpYT2JyTnlrS3V1dg?oc=5",
+      "quando": "2026-09-01T17:08:10.000Z",
       "selo": null
     }
   ]
