@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Pelada Carioca — comportamento da página
+   Basquete Carioca — comportamento da página
    1. Cabeçalho que muda ao rolar
    2. Menu mobile
    3. Carrossel (dots, setas, teclado, autoplay)
@@ -295,6 +295,14 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!menosMovimento) tentarTocar();
     });
     video.addEventListener('playing', revelarControle);
+
+    // O script roda no fim da página, então o vídeo pode já ter carregado
+    // antes destes ouvintes existirem — nesse caso o evento nunca mais vem.
+    // Por isso olhamos também o estado atual, em vez de só esperar o futuro.
+    if (video.readyState >= 1) {
+      revelarControle();
+      if (!menosMovimento) tentarTocar();
+    }
 
     // Fora da tela, o vídeo pausa — não faz sentido gastar bateria e dados
     // de quem está lendo outra seção.

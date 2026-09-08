@@ -1,6 +1,6 @@
-# Pelada Carioca — recriação local
+# Basquete Carioca — recriação local
 
-Recriação do site *Pelada Carioca* em HTML, CSS e JavaScript puros, sem
+Recriação do site *Basquete Carioca* em HTML, CSS e JavaScript puros, sem
 frameworks, sem build e sem dependências para instalar.
 
 ## Estrutura
@@ -73,7 +73,7 @@ de encher espaço com matéria de fora.
 | `404.html` | O que o visitante vê ao digitar um endereço que não existe. O GitHub Pages usa este arquivo automaticamente. |
 
 As meta tags de compartilhamento ficam no `<head>` de cada página e usam endereços
-absolutos (`https://lucas-dev77.github.io/Pelada_Carioca/...`) — é exigência das
+absolutos (`https://lucas-dev77.github.io/basquete-carioca/...`) — é exigência das
 plataformas, que buscam a imagem pelo endereço completo. Se o site mudar de domínio,
 esses endereços precisam ser atualizados em `index.html`, `vamos-jogar.html`,
 `robots.txt` e `sitemap.xml`.

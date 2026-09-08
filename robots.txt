@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lucas-dev77.github.io/Pelada_Carioca/sitemap.xml
+Sitemap: https://lucas-dev77.github.io/basquete-carioca/sitemap.xml
