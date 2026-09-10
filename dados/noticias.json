@@ -1,21 +1,13 @@
 {
-  "atualizadoEm": "2026-09-09T15:53:18.065Z",
+  "atualizadoEm": "2026-09-10T15:47:53.011Z",
   "destaque": null,
   "itens": [
-    {
-      "titulo": "Brasil ganha dois árbitros internacionais FIBA no basquete 3x3",
-      "fonte": "CBB",
-      "grupo": "oficial",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUmZxNFh4WTdnMUxDM3hHUVNtZVJsVE9td3FwSXNTTUlEdDdlQVlIRHFTM2VUeHlVdldQM2pTNUtBeDM3V25oN1BCLWlROTZHeWpqR1NJenRtNDJXZ0U1cUtaX0JXZFYyMy1oNTFOdlNSRkRjOHlnRUhnVFlNU29yY2xpclFLYzhaaEEydEFFNkktMGpDS1BmYXNn?oc=5",
-      "quando": "2026-09-08T14:56:26.000Z",
-      "selo": "rua"
-    },
     {
       "titulo": "Marcelinho Huertas é eleito o maior jogador da história da Basketball Champions League",
       "fonte": "CBB",
       "grupo": "oficial",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPal8wZll0dW41RXZlbHdYX2ZjRlhvdGV2dlFLT2FUWWRtQ284dFR4bHFSellHa3oyZzRkN3lrRU52SGRHb1JOcXdFY2ZCRDF3ZTl2Mnk1Z0MxdzRhSlY5WDZ4dXRlZGxQZDBOYW1HS2NDdEI1V3RHOTcyU1dMMXBmbHh5RHVOejVNSmNKanBZSnc1dTJuRll2TGQ3S21QSm5BbDVZME1WeFJGWVpFY2JickhsOTgtV1JnUXc?oc=5",
-      "quando": "2026-09-08T14:31:16.000Z",
+      "quando": "2026-09-08T19:27:45.000Z",
       "selo": null
     },
     {
@@ -27,19 +19,19 @@
       "selo": null
     },
     {
-      "titulo": "NBA pune Clippers e multa Kawhi Leonard por violação do teto salarial; entenda",
-      "fonte": "Estadão",
-      "grupo": "jornal",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRHNodktPQ2tjNm90MllIM05MT0xiRWprRDBfY2JGOERBbWc0aHE5MEFrU3dKNi16VU1NdGctM2VydDhlTlJyTzhDNkd0aDJqWTZVUW5DV3B3dlRvZXdES0ZmWGNIMUpFbnZHM2ttUk5GZG1nbDZDN0RHaGZBNWNva2l5VDk3ZFRZR1BWMFBGSkp6SWVVYlplLU5qREg5c3U0MUphQ0tEZmFQenljd0Z0Vnl4djhJd2Q3NzAteVl30gHDAUFVX3lxTE1yU0hXVWVZU3BJRjhGbDZOWVVZYzAyZk1oWjU2N2ZPN2lfbHhSeF9YNURGN1RPYjVxNkRJclhrS3E0RndLUVRlLVRsMi0zeVppZTdZYjE2THBTcVVCZXY5U0NWTkUzUVhadXlLYWJTS0gxMHNaQW9TSmJMSmluXzlrT29TMnBMWW93bEFHVVlHSjVQdkNrT2RnVWVPM002QVpDcDR2TzY5V3BvSkFfUjVOMGVmMjZtajVDUlFCQ21yenJrQQ?oc=5",
-      "quando": "2026-09-03T02:46:00.000Z",
-      "selo": null
-    },
-    {
       "titulo": "CBB e LNB estreitam diálogo e discutem ações conjuntas para fortalecer o basquete brasileiro",
       "fonte": "CBB",
       "grupo": "oficial",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZHlwTVVnVW1XMG4wbE1tY3lacDBWcldGaXZXaTVBQ1J5VFdJcnRDUVhPRFBlcTFaSUpHYmNLQjk3ekl5M0NmNUpqYjQxaHZJZU1MUXM2NmE5Q1pqaWVlVE9OM2dhdEtpdm5pM3V6NGM4bFZqcWlocGN0VG51YUYzNENiZXI0RDBOaDRaSm9hRlJrdkFtRHB4aEYzeWFKMUpmczdTdjNFYkY0R0pSQzdnWDZUWjdOeVpPMkVyOENMdldtZw?oc=5",
       "quando": "2026-09-02T14:57:35.000Z",
+      "selo": null
+    },
+    {
+      "titulo": "NBA pune Clippers e multa Kawhi Leonard por violação do teto salarial; entenda",
+      "fonte": "Estadão",
+      "grupo": "jornal",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRHNodktPQ2tjNm90MllIM05MT0xiRWprRDBfY2JGOERBbWc0aHE5MEFrU3dKNi16VU1NdGctM2VydDhlTlJyTzhDNkd0aDJqWTZVUW5DV3B3dlRvZXdES0ZmWGNIMUpFbnZHM2ttUk5GZG1nbDZDN0RHaGZBNWNva2l5VDk3ZFRZR1BWMFBGSkp6SWVVYlplLU5qREg5c3U0MUphQ0tEZmFQenljd0Z0Vnl4djhJd2Q3NzAteVl30gHDAUFVX3lxTE1yU0hXVWVZU3BJRjhGbDZOWVVZYzAyZk1oWjU2N2ZPN2lfbHhSeF9YNURGN1RPYjVxNkRJclhrS3E0RndLUVRlLVRsMi0zeVppZTdZYjE2THBTcVVCZXY5U0NWTkUzUVhadXlLYWJTS0gxMHNaQW9TSmJMSmluXzlrT29TMnBMWW93bEFHVVlHSjVQdkNrT2RnVWVPM002QVpDcDR2TzY5V3BvSkFfUjVOMGVmMjZtajVDUlFCQ21yenJrQQ?oc=5",
+      "quando": "2026-09-02T07:00:00.000Z",
       "selo": null
     },
     {
@@ -59,19 +51,27 @@
       "selo": null
     },
     {
-      "titulo": "Basquete: após derrota, Brasil encara o México pelas Eliminatórias da Copa",
-      "fonte": "Metrópoles",
-      "grupo": "jornal",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeEhTUm1RTkNCbHgySzduS2MwVmZiQ21QUkFpN05wUmxlWUlBUktsVEY4Q1U3Zl9CZXp1QVU4ZTJvSzRRNzBUQ2trTHVoM2pIb0pvUlBGVTBVci1EX3ktVkczMG4xV0w2RTMwdmptdk1UeG52eHRXTXJxaXVtd3d2YjVFR2FZdmt1bHd3UGgtRHNXODFLYnFiay0tVnVKLW1ZamF6M2JTQjhUdmR1?oc=5",
-      "quando": "2026-08-31T07:00:00.000Z",
-      "selo": null
-    },
-    {
       "titulo": "Basquete: em Brasília, República Dominicana bate Brasil pelas Eliminatórias",
       "fonte": "Metrópoles",
       "grupo": "jornal",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdGRMbE9DTFN2X2ZBWXQ4VXR6SVgtQk1DUFZndlNaWUljbDBYQ2dEdy0tYlVWc09rbGpyT0hpTC1BODEyTDJsWnFiZFFvM1pnR3JOLXhIR1V6dDBuNW04ckpVZUktdFdCZ0pCaUs1SzZTb2ZLWDBNbkZXeFpZOTB5S3FRcVZ0eFJBVmhLMmNNYjQweGsyY2JSX0xYWlRhUFRBQjFOcjg1SFpRTmtZbkE?oc=5",
       "quando": "2026-08-28T07:00:00.000Z",
+      "selo": null
+    },
+    {
+      "titulo": "Brasil enfrenta campeão da NBA nas Eliminatórias da Copa do Mundo",
+      "fonte": "LANCE!",
+      "grupo": "jornal",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYm9Qb1ItTlFsMzVMaGRyQXctVzZHdllhb0RDWnE2b0FpUEtKenZIeHVNOFl6ZW95SktmZU1WQTVMajNNLUNvUWk4MUJHNVBtY2ltYVB1eGJ6NkpqS1A1Qk5naTZrU3dTNEpLSkk0RVNlQXltUjJGNGNVNjkzSTE0bkszeW5CcGl3bTZvU1FHRV9ERlZLNFRyTVR0TUpBUGVf?oc=5",
+      "quando": "2026-08-27T07:00:00.000Z",
+      "selo": null
+    },
+    {
+      "titulo": "Basquete: Brasil perde para República Dominicana nas Eliminatórias da Copa",
+      "fonte": "CNN Brasil",
+      "grupo": "jornal",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQXVQSTc4OWNSZG5MWURFVXpDZEVJcWVsRlRZa0JUaUkyOFMyUjFYVjktVXR5VzJKMm14NU5YUXhPekZqWjJybUo4VkxjMHc5dXVhamlvRTFnX0J1dWFqeUg2UExfUDZVRVhRTFdlaEw4ZVlTWG9sN3RZTGdEY2FTOVVwaTg4SmFNOU56Y3RMSXEtV1p1aHlMSjJsUHc3SGpPdkxUWnlGc1pmRnZZWjJPUzV0N19KOElOVjVxNGxB?oc=5",
+      "quando": "2026-08-27T07:00:00.000Z",
       "selo": null
     }
   ]
