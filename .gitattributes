@@ -1,0 +1,17 @@
+# Normaliza o fim de linha. Sem isto, arquivo escrito no Windows (CRLF) e
+# arquivo escrito pelo robô no Linux (LF) aparecem como "tudo alterado",
+# mesmo quando o conteúdo é igual.
+
+*           text=auto eol=lf
+
+# Scripts do Windows precisam de CRLF para funcionar
+*.bat       text eol=crlf
+*.ps1       text eol=crlf
+
+# Binários não devem ser tocados
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.svg       text eol=lf
+*.mp4       binary
+*.webm      binary
